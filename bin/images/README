@@ -1,0 +1,92 @@
+Button Configuration : 
+player 1 :
+-move left : left button
+-move right : right button
+-attack : L
+-guard : K
+-skill : O
+
+player 2:
+-move left : A
+-move right : D
+-attack : G
+-guard : F
+-skill : R
+
+Choose options in Map with left and right and Enter
+Escape to go back from city
+
+==============================================================================WEEK 1 IMPLEMENTATION===================================================================
+Implementation : -Add Model of characters (monster and hero), city, shop, item
+				 -Some functions in Battlefield
+				 -Attack functions for characters
+Testing : Automatic Testing (src/test)
+
+==============================================================================WEEK 2 IMPLEMENTATION===================================================================
+The test for GUI are located at FinalProject/src/test/test
+There are images that show the GUI are working manually
+(Map screen and battlefield, add new player, move around the map, can move in battlefield,
+	There's AI monster, Player can battle monster)
+Image 1 is when the play button are pressed
+Image 2 is when user can add new player to the game
+Image 3 is when user can input the name for the new player
+Image 4 and 5 are when user can press button left and right to go through the map
+Image 6 is when user choose battlefield, player will battle against AI monster
+Image 7 is when user can walk around on the map
+Image 8 is when user can attack the monster and the status is shown below
+Image 9 is when user win the battle and gain experience and gold
+Image 10 is when user back to the title map page after winning
+Image 11 is when user lost the battle and lost some gold
+
+
+==============================================================================WEEK 3 IMPLEMENTATION===================================================================
+The test for GUI part 2 (Animations) located at FinalProject/src/test/test2
+(Add sounds, user can load and save, animation effects, user can shop,
+	Players can heal,set dungeon to dynamically change,win/lost battle effect)
+There're sound effects and bgm in the game but i cannot show them here.
+I will show them on the demo.
+
+Image 1 is loading page when user choose to load character
+Image 2 is the animation effect of player running
+Image 3 is the animation effect of player attacking
+Image 4 is the effect shown when player win the battle
+Image 5 is the shopping prompt
+Image 6 is the player with weapon (no armor)
+Image 7 is the animation effect of player with weapon attacking
+Image 8 is the prompt -> buying armor 
+Image 9 is successful attempt buying item
+Image 10 is the player with weapon and armor
+Image 11 is the animation effect of player with weapon and armor attacking
+Image 12 is the choice to save player
+Image 13 is the prompt to ask which player to save
+Image 14 is the prompt to ask what name to save the chosen player
+Image 15 is the sprite with armor (no weapon)
+Image 16 is the animation effect of player with armor attacking
+Image 17 is the prompt to heal
+Image 18 is the failure to heal because of full health / not enough money
+Image 19 is the city options ( heal and shop )
+Image 20 is the healing option when there's health to heal and enough money
+Image 21 is the success healing prompt
+Image 22 is the dungeon 2 having monster with 3 level higher than highest level player in game
+Image 23 is the animation shown when player lost a battle
+Image 24 is the battlefield when there're 2 players playing
+
+
+==============================================================================WEEK 5 IMPLEMENTATION===================================================================
+The final part of the project : add skills for players, can only be used when player use weapon
+								There are 5 different skills depending on level of the player (1-5,6-10,11-15,16-20,21~)
+								Add guard implementation for players(receive 1/4 damage). Different effect with different costumes
+								Add implementation where user cannot load 2 same players in the same game
+								Add the effect of Tomb when there's someone die in the game
+Test is located at src/test/test3 :
+Image 1 : The tomb effect when monster dies
+Image 2 : The skill of player level 1~5
+Image 3 : The skill of player level 6~10
+Image 4 : The skill of player level 11~15
+Image 5 : The skill of player level 16~20
+Image 6 : The skill of player level 21~
+Image 7 : Cannot load 2 same players in the same game
+Image 8 : Sprite when guarding with no weapon/armor
+Image 9 : Sprite when guarding with only weapon
+Image 10: Sprite when guarding with only armor
+Image 11: Sprite when guarding with full equip (weapon and armor)

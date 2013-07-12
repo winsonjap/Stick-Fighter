@@ -1,0 +1,30 @@
+<model.Hero>
+  <battleX>10</battleX>
+  <battleY>295</battleY>
+  <strength>8</strength>
+  <health>47</health>
+  <level>1</level>
+  <defense>3</defense>
+  <gold>50</gold>
+  <direction>1</direction>
+  <experience>0</experience>
+  <currHealth>47</currHealth>
+  <guard>false</guard>
+  <die>false</die>
+  <name>test</name>
+  <expLimit>30</expLimit>
+  <weapon>
+    <strength>1</strength>
+    <defense>0</defense>
+    <level>1</level>
+    <price>150</price>
+    <name>Saber 1</name>
+    <type>weapon</type>
+    <color>
+      <red>0</red>
+      <green>255</green>
+      <blue>0</blue>
+      <alpha>255</alpha>
+    </color>
+  </weapon>
+</model.Hero>

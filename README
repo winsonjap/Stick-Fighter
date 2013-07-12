@@ -1,0 +1,57 @@
+Button Configuration : 
+player 1 :
+-move left : left button
+-move right : right button
+-attack : L
+
+player 2:
+-move left : A
+-move right : D
+-attack : G
+
+Choose options in Map with left and right and Enter
+Escape to go back from city
+
+
+The test for GUI are located at FinalProject/src/test/test
+There are images that show the GUI are working manually
+
+Image 1 is when the play button are pressed
+Image 2 is when user can add new player to the game
+Image 3 is when user can input the name for the new player
+Image 4 and 5 are when user can press button left and right to go through the map
+Image 6 is when user choose battlefield, player will battle against AI monster
+Image 7 is when user can walk around on the map
+Image 8 is when user can attack the monster and the status is shown below
+Image 9 is when user win the battle and gain experience and gold
+Image 10 is when user back to the title map page after winning
+Image 11 is when user lost the battle and lost some gold
+
+The test for GUI part 2 (Animations) located at FinalProject/src/test/test2
+There're sound effects and bgm in the game but i cannot show them here.
+I will show them on the demo.
+
+Image 1 is loading page when user choose to load character
+Image 2 is the animation effect of player running
+Image 3 is the animation effect of player attacking
+Image 4 is the effect shown when player win the battle
+Image 5 is the shopping prompt
+Image 6 is the player with weapon (no armor)
+Image 7 is the animation effect of player with weapon attacking
+Image 8 is the prompt -> buying armor 
+Image 9 is successful attempt buying item
+Image 10 is the player with weapon and armor
+Image 11 is the animation effect of player with weapon and armor attacking
+Image 12 is the choice to save player
+Image 13 is the prompt to ask which player to save
+Image 14 is the prompt to ask what name to save the chosen player
+Image 15 is the sprite with armor (no weapon)
+Image 16 is the animation effect of player with armor attacking
+Image 17 is the prompt to heal
+Image 18 is the failure to heal because of full health / not enough money
+Image 19 is the city options ( heal and shop )
+Image 20 is the healing option when there's health to heal and enough money
+Image 21 is the success healing prompt
+Image 22 is the dungeon 2 having monster with 3 level higher than highest level player in game
+Image 23 is the animation shown when player lost a battle
+Image 24 is the battlefield when there're 2 players playing
